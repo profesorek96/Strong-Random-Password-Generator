@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
             this.tytul = new System.Windows.Forms.Label();
@@ -37,7 +38,11 @@
             this.malelitery = new System.Windows.Forms.CheckBox();
             this.cyfry = new System.Windows.Forms.CheckBox();
             this.znakispecjal = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // numericUpDown1
@@ -69,7 +74,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 46);
             this.button1.TabIndex = 1;
-            this.button1.Text = "GENERUJ";
+            this.button1.Text = "PLAY";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -79,16 +84,16 @@
             this.tytul.Font = new System.Drawing.Font("Segoe UI Emoji", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tytul.Location = new System.Drawing.Point(207, 9);
             this.tytul.Name = "tytul";
-            this.tytul.Size = new System.Drawing.Size(198, 32);
+            this.tytul.Size = new System.Drawing.Size(244, 32);
             this.tytul.TabIndex = 2;
-            this.tytul.Text = "Generator hasła";
+            this.tytul.Text = "Password Generator";
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(15, 254);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(565, 22);
+            this.textBox1.Size = new System.Drawing.Size(659, 22);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -97,9 +102,9 @@
             this.infodlugosc.AutoSize = true;
             this.infodlugosc.Location = new System.Drawing.Point(12, 148);
             this.infodlugosc.Name = "infodlugosc";
-            this.infodlugosc.Size = new System.Drawing.Size(136, 16);
+            this.infodlugosc.Size = new System.Drawing.Size(146, 16);
             this.infodlugosc.TabIndex = 4;
-            this.infodlugosc.Text = "Długość hasła (8-50)";
+            this.infodlugosc.Text = "Length password (8-50)";
             // 
             // duzelit
             // 
@@ -141,11 +146,35 @@
             this.znakispecjal.Text = "!@#...";
             this.znakispecjal.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(534, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.InitialImage = null;
+            this.pictureBox2.Location = new System.Drawing.Point(534, 125);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 316);
+            this.ClientSize = new System.Drawing.Size(771, 316);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.znakispecjal);
             this.Controls.Add(this.cyfry);
             this.Controls.Add(this.malelitery);
@@ -159,6 +188,8 @@
             this.Name = "Form1";
             this.Text = "Strong Random Password Generator";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,6 +206,8 @@
         private System.Windows.Forms.CheckBox malelitery;
         private System.Windows.Forms.CheckBox cyfry;
         private System.Windows.Forms.CheckBox znakispecjal;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
