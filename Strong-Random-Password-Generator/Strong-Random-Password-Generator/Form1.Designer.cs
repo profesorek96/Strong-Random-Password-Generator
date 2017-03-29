@@ -47,7 +47,8 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(225, 142);
+            this.numericUpDown1.Location = new System.Drawing.Point(203, 118);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             50,
             0,
@@ -59,7 +60,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(160, 22);
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 0;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown1.Value = new decimal(new int[] {
@@ -70,9 +71,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(225, 186);
+            this.button1.Location = new System.Drawing.Point(203, 142);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 46);
+            this.button1.Size = new System.Drawing.Size(120, 37);
             this.button1.TabIndex = 1;
             this.button1.Text = "PLAY";
             this.button1.UseVisualStyleBackColor = true;
@@ -82,7 +84,8 @@
             // 
             this.tytul.AutoSize = true;
             this.tytul.Font = new System.Drawing.Font("Segoe UI Emoji", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tytul.Location = new System.Drawing.Point(207, 9);
+            this.tytul.Location = new System.Drawing.Point(155, 7);
+            this.tytul.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tytul.Name = "tytul";
             this.tytul.Size = new System.Drawing.Size(244, 32);
             this.tytul.TabIndex = 2;
@@ -90,28 +93,31 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 254);
+            this.textBox1.Location = new System.Drawing.Point(31, 204);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(659, 22);
+            this.textBox1.Size = new System.Drawing.Size(495, 20);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // infodlugosc
             // 
             this.infodlugosc.AutoSize = true;
-            this.infodlugosc.Location = new System.Drawing.Point(12, 148);
+            this.infodlugosc.Location = new System.Drawing.Point(9, 120);
+            this.infodlugosc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.infodlugosc.Name = "infodlugosc";
-            this.infodlugosc.Size = new System.Drawing.Size(146, 16);
+            this.infodlugosc.Size = new System.Drawing.Size(118, 13);
             this.infodlugosc.TabIndex = 4;
             this.infodlugosc.Text = "Length password (8-50)";
             // 
             // duzelit
             // 
             this.duzelit.AutoSize = true;
-            this.duzelit.Location = new System.Drawing.Point(225, 67);
+            this.duzelit.Location = new System.Drawing.Point(169, 54);
+            this.duzelit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.duzelit.Name = "duzelit";
-            this.duzelit.Size = new System.Drawing.Size(53, 20);
+            this.duzelit.Size = new System.Drawing.Size(49, 17);
             this.duzelit.TabIndex = 5;
             this.duzelit.Text = "A...Z";
             this.duzelit.UseVisualStyleBackColor = true;
@@ -119,9 +125,10 @@
             // malelitery
             // 
             this.malelitery.AutoSize = true;
-            this.malelitery.Location = new System.Drawing.Point(335, 67);
+            this.malelitery.Location = new System.Drawing.Point(318, 54);
+            this.malelitery.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.malelitery.Name = "malelitery";
-            this.malelitery.Size = new System.Drawing.Size(50, 20);
+            this.malelitery.Size = new System.Drawing.Size(46, 17);
             this.malelitery.TabIndex = 6;
             this.malelitery.Text = "a...z";
             this.malelitery.UseVisualStyleBackColor = true;
@@ -129,9 +136,10 @@
             // cyfry
             // 
             this.cyfry.AutoSize = true;
-            this.cyfry.Location = new System.Drawing.Point(225, 102);
+            this.cyfry.Location = new System.Drawing.Point(169, 83);
+            this.cyfry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cyfry.Name = "cyfry";
-            this.cyfry.Size = new System.Drawing.Size(50, 20);
+            this.cyfry.Size = new System.Drawing.Size(47, 17);
             this.cyfry.TabIndex = 7;
             this.cyfry.Text = "0...9";
             this.cyfry.UseVisualStyleBackColor = true;
@@ -139,9 +147,10 @@
             // znakispecjal
             // 
             this.znakispecjal.AutoSize = true;
-            this.znakispecjal.Location = new System.Drawing.Point(335, 102);
+            this.znakispecjal.Location = new System.Drawing.Point(318, 83);
+            this.znakispecjal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.znakispecjal.Name = "znakispecjal";
-            this.znakispecjal.Size = new System.Drawing.Size(60, 20);
+            this.znakispecjal.Size = new System.Drawing.Size(56, 17);
             this.znakispecjal.TabIndex = 8;
             this.znakispecjal.Text = "!@#...";
             this.znakispecjal.UseVisualStyleBackColor = true;
@@ -150,9 +159,10 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(534, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(434, 31);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 67);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -161,18 +171,19 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(534, 125);
+            this.pictureBox2.Location = new System.Drawing.Point(434, 102);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox2.Size = new System.Drawing.Size(105, 67);
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 316);
+            this.ClientSize = new System.Drawing.Size(550, 257);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.znakispecjal);
@@ -184,6 +195,7 @@
             this.Controls.Add(this.tytul);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.numericUpDown1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Strong Random Password Generator";
